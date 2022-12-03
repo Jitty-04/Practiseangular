@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PassengerComponent } from './passenger/passenger.component';
 import { ProductComponent } from './product/product.component';
 import { QuotesComponent } from './quotes/quotes.component';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PassengerComponent,
     ProductComponent,
-    QuotesComponent
+    QuotesComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
